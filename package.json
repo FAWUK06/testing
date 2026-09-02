@@ -1,0 +1,14 @@
+{
+  "name": "auth-app",
+  "version": "1.0.0",
+  "description": "Sistem daftar dan login sederhana (Express + session + bcrypt)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
